@@ -37,7 +37,7 @@ class CommandManager(BaseManager):
         super().__init__()
         self.game = game
         self.cmds_dir = PATHS["dir_commands"]        
-        self.commands = { "искать":{}}
+        self.commands = {}
         self.active_cmds = {}
 
     def load_commands(self):

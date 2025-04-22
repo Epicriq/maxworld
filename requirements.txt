@@ -1,0 +1,6 @@
+gpt4all==2.8.2
+rich==14.0.0
+rwkv==0.8.28
+tokenizers==0.21.1
+torch==2.6.0
+transformers==4.51.3
