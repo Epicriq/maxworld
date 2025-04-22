@@ -1,0 +1,17 @@
+{
+  "ржавый нож": {
+	  "id": "5361a11b-615c-42bf-9bdb-e2c3790ada14",
+    "type": "weapon",
+    "durability": 0.5,
+    "is_reach": true,
+	  "is_active": true
+
+  },
+  "бурдюк":{
+    "id": "93b672c6-54c5-4526-bfd2-9a5e7ef88f29",
+    "type": "container",
+    "durability": 0.5,
+    "is_reach": true,
+	  "isactive": true
+  }
+}

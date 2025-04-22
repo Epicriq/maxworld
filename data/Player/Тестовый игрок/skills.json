@@ -1,0 +1,10 @@
+{
+  "рукопашный бой": {
+    "active": true,
+    "cooldown": 1
+  },
+  "скалолазание": {
+    "active": true,
+    "cooldown": 1
+  }
+}

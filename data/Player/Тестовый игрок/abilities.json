@@ -1,0 +1,10 @@
+{
+  "метаболизм": {
+    "active": true,
+    "cooldown": 0	  
+  },
+  "имунитет": {
+    "active": true,
+    "cooldown": 0	  
+  }
+}
