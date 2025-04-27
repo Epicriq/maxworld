@@ -3,6 +3,7 @@ from system.sys import SysManager
 from system.map import MapManager
 from system.cmd import CommandManager
 from system.mod import ModManager
+from system.db import DBManager
 
 class Game:
     def __init__(self):    
@@ -13,6 +14,7 @@ class Game:
         self.cmd = CommandManager(self)
         self.map = MapManager(self)
         self.mod = ModManager(self)
+        self.db = DBManager(self)
         
     def run(self):
         # Загрузка команд

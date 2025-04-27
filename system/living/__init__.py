@@ -1,10 +1,9 @@
 __version__ = '1.0.0'
 __author__ = 'ASuslov'
-__all__ = ['characters', 'player', 'npc', 'monster', 'monsters']
+__all__ = ['characters', 'player', 'monster', 'monsters']
 
 from . import characters
 from . import player
-from . import npc
 from . import monster
 from . import monsters
 

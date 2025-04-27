@@ -1,13 +1,14 @@
 class Info(dict):
     def __init__(self):
         self._storage = {
-            "id": "00000000-0000-0000-0000-000000000000",
+            "id": 0,
             "lvl": 0,
             "exp": 0, 
             "age": 0,
             "gender": None,
             "height": 0,
-            "weight": 0
+            "weight": 0,
+            "position": (0, 0)
         }
     def __getattr__(self, key):
         if key.startswith('_'):

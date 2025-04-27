@@ -4,6 +4,8 @@ PATHS = {
     "dir_mods": "mods",
     # Расположение команд
     "dir_commands": "system\\commands",
+    # База данных
+    "file_database": "data\\game.db",
     # Расположение данных игрока
     "dir_players": "data\\player\\", 
     # Расположение данных монстров

@@ -1,6 +1,5 @@
 from system.man import BaseManager
 from system.gen import *
-from system.living.npc import get_ai_response
 #from system.commands.инвентарь import инвентарь
 import sys
 import msvcrt
